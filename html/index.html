@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+		<style>
+			h1{
+				color: #08253F;
+			}
+			:root {
+				--bs-blue: #08253F;
+				--bs-indigo: #08253F;
+				--bs-purple: #6f42c1;
+				--bs-pink: #d63384;
+				--bs-red: #dc3545;
+				--bs-orange: #fd7e14;
+				--bs-yellow: #ffc107;
+				--bs-green: #198754;
+				--bs-teal: #20c997;
+				--bs-cyan: #08253F;
+				--bs-white: #fff;
+				--bs-gray: #6c757d;
+				--bs-gray-dark: #343a40;
+				--bs-gray-100: #f8f9fa;
+				--bs-gray-200: #e9ecef;
+				--bs-gray-300: #dee2e6;
+				--bs-gray-400: #ced4da;
+				--bs-gray-500: #adb5bd;
+				--bs-gray-600: #6c757d;
+				--bs-gray-700: #495057;
+				--bs-gray-800: #343a40;
+				--bs-gray-900: #212529;
+				--bs-primary: #08253F;
+				--bs-secondary: #08253F;
+				--bs-success: #08253F;
+				--bs-info: #08253F;
+				--bs-warning: #08253F;
+				--bs-danger: #08253F;
+				--bs-light: #08253F;
+				--bs-dark: #08253F;
+				--bs-primary-rgb: 8, 37, 63;
+				--bs-secondary-rgb: 8, 37, 63;
+				--bs-success-rgb: 8, 37, 63;
+				--bs-info-rgb: 13, 202, 240;
+				--bs-warning-rgb: 255, 193, 7;
+				--bs-danger-rgb: 255, 255, 255;
+				--bs-light-rgb: 248, 249, 250;
+				--bs-dark-rgb: 33, 37, 41;
+				--bs-white-rgb: 255, 255, 255;
+				--bs-black-rgb: 0, 0, 0;
+				--bs-body-color-rgb: 8, 37, 63;
+				--bs-body-bg-rgb: 255, 255, 255;
+				--bs-font-sans-serif: system-ui, -apple-system, "Playfair display", Playfair display;
+				--bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+				--bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+				--bs-body-font-family: var(Playfair display);
+				--bs-body-font-size: 1rem;
+				--bs-body-font-weight: 400;
+				--bs-body-line-height: 1;
+				--bs-body-color: #08253F;
+				--bs-body-bg: #fff;
+			}
+		</style>
+	</head>
+
+	<body style="font-family: playfair display; overflow-x: hidden;" >
+		<div class="container-fluide fixed-top sticky-top d-none d-lg-block" style="background-color: white;">
+			<ul class="nav row" >
+			  <li class="col-2 nav-item" style="margin-left:-60px">
+			    <a class="nav-link active" aria-current="page" href="index.html">
+			    	<h1 class="h1" style="margin-top: 10px; font-weight: normal; text-align: right;">Loyaux</h1>
+	                <h2 class="h4" style="line-height: 0.5; color: #08253F; font-weight: normal; color: #B68349; text-align: right;">services</h2>
+	            </a>
+			  </li>
+			  <li class="col-1 offset-5  nav-item h4">
+			    <a class="nav-link" href="index.html" style="color: #08253F;margin-top: 30px;">Accueil</a>
+			  </li>
+			  <li class="col-2 nav-item h4">
+			    <a class="nav-link" href="nosServices.html" style="color: #08253F;margin-top: 30px; ">Nos Services</a>
+			  </li>
+			  <li class="col-2 nav-item h4">
+                <a type="button" class="btn btn-danger" style="margin-top: 30px; text-decoration: none; background-color: #ff4136; border-color: #ff4136" href="tel:+33189163042"><span style="font-family: Playfair display; font-size: 23px; color: white;">01 89 16 30 42</span></a>	
+			  </li>
+			</ul>
+		</div>
+
+		<div class="d-none d-lg-block" style=" background-image: url(site.png);background-repeat: no-repeat; background-size: cover; margin: 0px -10px;">
+            <div>
+                <br><br><br><br><br><br>
+            </div>
+            <div style="font-family: Playfair display; margin: 10px 70px; font-size: 22px; color: #08253F;">
+                Loyaux Services
+            </div>
+            <div style="font-family: Playfair display; margin: 10px 70px; font-size: 60px; color: #08253F;font-weight: bold;">
+                Dépannage serrurier<br>sur Paris
+            </div>
+            <div style="font-family: Playfair display; margin: 10px 70px; font-size: 23px; color: #08253F;">
+                <br>Nous sommes spécialisés dans le dépannage en serrurerie <br>générale sur Paris, et  ce 7j/7 et 24h/24. 
+            </div>
+            <h1><br></h1>
+            <div>
+                <div class="offset-5" style=" display: flex;">
+                    <a type="button" class="btn btn-danger" style="text-decoration: none; background-color: #ff4136; border-color: #ff4136" href="tel:+33189163042"><span style="font-family: Playfair display; font-size: 40px; color: white;">01 89 16 30 42</span></a>            
+                </div>
+                <br><br><br><br><br>
+            </div>
+        </div>
+
+        <div class="d-none d-lg-block" style="margin: -40px; background-color:#08253F; align-content: center; align-items: center; text-align: center;">
+            <div><br></div>
+            <div style=" display: flex; margin: 0 auto; width: 500px; color: white; justify-content: center; align-items: center; text-align: center;">
+                <img style="width: 8%; justify-content: center; align-items: center; text-align: center;" src="contact.png">
+                <h2 style="font-size:40px;margin: 0px 20px; align-content: center; align-items: center; text-align: center;">Qui sommes nous?</h2>
+            </div>
+            <div ><img src="trait.svg" style="width: 300px; margin-left:30px"></div>
+            <div style=" color: white; margin-top:30px">
+                <h3 style="font-size:28px; font-weight: bold;">Loyaux Services est une entreprise pensée pour vous!</h3>
+                <p style="font-size:24px">Forts d'une expérience d'une vingtaine d'années, nous avons décidé de réunir les meilleurs serruriers <br> sur Paris.  Spécialistes de l’urgence serrurerie, nous sommes disponibles pour une ouverture de porte, <br> l’installation et la réparation de votre serrure....</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="d-none d-lg-block" style=" align-content: center; align-items: center; text-align: center; margin: 100px">
+            <div style=" display: flex; margin: 0 auto; width: 500px; color: white; align-content: center; align-items: center; text-align: center;">
+                <img style="width: 12%; align-content: center; align-items: center; text-align: center;" src="outil.png">
+                <h2 style="font-size:40px;margin: 0px 20px; align-content: center; align-items: center; text-align: center; color: #08253F;">Nos compétences</h2>
+            </div>
+            <div ><img src="trait.svg" style="width: 350px; margin-left: -40px"></div>
+            <div class="row">
+                <h1 class="col-12"><br></h1>
+                <div class="col-3 offset-1" style="background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+                    <a  href="nosServices.html"><img style="width:105%" src="service1.png"></a>
+                    <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Ouverture de porte</h3>
+                </div>
+                <div class="col-3 offset-1" style="background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+                    <a  href="nosServices.html"><img style="width:105%" src="service2.png"></a>
+                    <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Changement de serrure</h3>
+                </div>
+                <div class="col-3 offset-1" style="background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+                    <a  href="nosServices.html"><img style="width:105%" src="service3.png"></a>
+                    <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Coffre-fort</h3>
+                </div>
+                <h1 class="col-12"><br></h1>
+                <div class="col-3 offset-1" style="background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+                    <a  href="nosServices.html"><img style="width:105%" src="service4.png"></a>
+                    <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Porte blindée & blindage</h3>
+                </div>
+                <div class="col-3 offset-1" style="background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+                    <a  href="nosServices.html"><img style="width:105%" src="service5.png"></a>
+                    <h3 style="color: white; text-align:center; margin-top: 15px;">Volets roulants</h3>
+                </div>
+                <div class="col-3 offset-1" style="background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+                    <a  href="nosServices.html"><img style="width:105%" src="service6.png"></a>
+                    <h3 style="color: white; text-align:center; margin-top: 15px;">Réglage de porte</h3>
+                </div>
+                <h1 class="col-12"><br></h1>
+                <div class="col-3 offset-1" style="background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+                    <a  href="nosServices.html"><img style="width:105%" src="service7.png"></a>
+                    <h3 style="color: white; text-align:center; margin-top: 15px;">Ouverture de boite aux lettres</h3>
+                </div>
+                <div class="col-3 offset-1" style="background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+                    <a  href="nosServices.html"><img style="width:105%" src="service8.png"></a>
+                    <h3 style="color: white; text-align:center; margin-top: 15px;">Double de clé</h3>
+                </div>
+                <div class="col-3 offset-1" style="background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+                    <a  href="nosServices.html"><img style="width:105%" src="service9.png"></a>
+                    <h3 style="color: white; text-align:center; margin-top: 15px;">Installation ferme- porte & verrous aux fenêtres</h3>
+                </div>
+                <h1 class="col-12"><br></h1>
+            </div>
+        </div>
+        <div class="d-none d-lg-block" style="background-image: url(bande.png); background-size: cover; background-repeat: no-repeat; align-items: center; justify-content: center; text-align: right;">
+            <h1 style="margin: 0px 130px; font-size:50px; color: white;"><br><br>Disponible 24h/24 - 7J /7</h1>
+            <div class="bouton" style="margin: 20px 300px ;display: flex; align-items: center; justify-content: right;">
+                <a type="button" class="btn btn-danger" style="margin-top: 30px; text-decoration: none; background-color: #ff4136; border-color: #ff4136" href="tel:+33189163042"><span style="font-family: Playfair display; font-size: 50px;  color: white;">01 89 16 30 42</span></a>                 
+            </div>
+            <h2 style="margin: 20px -450px 0px 300px; text-align: center; font-size:35px; font-family: arimo; color: white;"><br>CONTACTEZ NOUS POUR UNE <br>INTERVENTION EXPRESS<br>SUR PARIS</h2>
+            <p><br><br><br></p>
+        </div>
+
+        <div class="d-none d-lg-block" style="background-color:white;">
+            <div style="height:100px; width: auto;"></div>
+        </div>
+
+        <div class="d-none d-lg-block" style="background-color:#08253F; display: flex; flex-direction:column;">
+            <div class="1/2" style="display: flex; ">
+                <div style=" display: flex; flex-direction: column; margin: 30px 0px;width: 800px; color: white; align-content: center; align-items: center; text-align: center;">
+                    <div style="display: flex; margin: 30px 0px 50px 300px;width: 800px; color: white; align-content: center; align-items: center; text-align: center;">
+                        <img style="width: 5%; align-content: center; align-items: center; text-align: center;" src="confiance.png">
+                        <h2 style="font-size:40px;margin: 0px 20px; align-content: center; align-items: center; text-align: center;">Ils nous font confiance</h2>
+                    </div>
+                <div style="display:flex;">
+                    <div style="width:100px;">
+                        <br>
+                    </div>
+                    <div style="width:50px; background-color:#08253F;">
+                        <img style="width: 200%; " src="assurance1.png">
+                    </div>
+                    <div style="width:100px; ">
+                        <br>
+                    </div>
+                    <div style="width:100px; background-color:#08253F;">
+                        <img style="width:100%" src="assurance2.png">
+                    </div>
+                    <div style="width:50px; ">
+                        <br>
+                    </div>
+                    <div style="width:100px; background-color:#08253F;">
+                        <img style="width:100%" src="assurance3.png">
+                    </div>
+                    <div style="width:100px; ">
+                        <br>
+                    </div>
+                </div>
+                <div style="display:flex;">
+                    <div style="width:100px;">
+                        <br>
+                    </div>
+                    <div style="width:50px; background-color:#08253F;">
+                        <img style="width: 200%; " src="assurance4.png">
+                    </div>
+                    <div style="width:100px; ">
+                        <br>
+                    </div>
+                    <div style="width:100px; mabackground-color:#08253F;">
+                        <img style="width:100%" src="assurance5.png">
+                    </div>
+                    <div style="width:50px; ">
+                        <br>
+                    </div>
+                    <div style="width:100px; background-color:#08253F;">
+                        <img style="width:100%" src="assurance6.png">
+                    </div>
+                    <div style="width:100px; ">
+                        <br>
+                    </div>
+                </div>
+                <div><br><br></div>
+            </div>
+            <div class="1/2" style="display: flex; ">
+                <div style=" display: flex; flex-direction: column; margin: 30px 0px;width: 800px; color: white; align-content: center; align-items: center; text-align: center;">
+                    <div style="display: flex; margin: 30px 0px 50px 300px ;width: 800px; color: white; align-content: center; align-items: center; text-align: center;">
+                        <img style="width: 5%; align-content: center; align-items: center; text-align: center;" src="partenaires.png">
+                        <h2 style="font-size:40px;margin: 0px 20px; align-content: center; align-items: center; text-align: center;">Nos partenaires</h2>
+                    </div >
+                        <img style="width: 45%; margin: -15px 0px 0px -120px" src="marque.png"> 
+                    </div>
+                </div>    
+            </div>
+        </div>
+	    
+	   <div class="d-none d-lg-block container-fluide" style="background-color: #08253F">
+            <div class="row">
+                <div class="col-1 offset-1"><img style="width: 100%; margin-top: 10px;" src="bouclier.png"></div>
+                <div class="col-9">
+                    <h3 style="color:white; text-align: justify; margin: 20px;">Tous nos tarifs sont agrées et validés par les compagnies d'assurances pour vous garantir une prise en charge et un remboursement rapide et immédiat en cas de cambriolage, d'effraction et perte de clés.</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-none d-lg-block" style="background-color:#08253F; color: white; text-align: center;">
+            <h4><br><br></h4>
+        </div>
+
+        <div class="container-fluide d-none d-lg-block">
+            <div class="row">
+               <div class="col-5 offset-1">
+                    <p><br></p>
+                    <h1>Loyaux Services à Paris, à vos côtés!</h1>
+                    <p><br></p>
+                    <h4>Nous mettons à votre disposition notre savoir faire et vous garantissons le meilleur rapport qualité-prix d’une prestation clés en main avec service après vente. Nous mettons l’accent sur la qualité du service, c’est à dire l’efficacité, la rapidité d’exécution, la réactivité aux demandes et surtout une transparence tarifaire. Avec Loyaux Services, vous ne risquez pas de mauvaise surprise. Nos tarifs sont clairement annoncés avant chaque intervention.</h4>
+                    <p><br></p>
+                    <div class="row" style="color: #B01C1D;">
+                        <div class="col-3 offset-1">
+                            <img style="width:50%" src="montre.png">
+                            <p><br>Intervention Express</p>
+                        </div>
+                        <div class="col-3 offset-1">
+                            <img style="width:50%" src="diamant.png">
+                            <p><br>Matériel à la pointe</p>
+                        </div>
+                        <div class="col-3 offset-1">
+                            <img style="width:50%" src="victoire.png">
+                            <p><br>La qualité, avant tout</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 offset-1">
+                    <p><br><br><br></p>
+                    <img style="width:100%; box-shadow: 20px 20px 5px #08253F;" src="serrurier2.png">
+                    <p><br><br><br><br><br></p>
+                </div>
+            </div> 
+        </div>
+
+        <div class="container-fluide d-none d-lg-block" style="background-color: #08253F;">
+                <p style="font-size: 5px;"><br></p>
+                <div class="row" style=" display: flex; color: white;">
+                    <img class="col-1 offset-3" style="width: 5%; " src="verrou.png">
+                    <h3 class="col-8" style="font-size:40px; color: white;">Nous intervenons sur tous types de serrures</h3>
+                </div>
+                <div class="col-12">
+                    <img style="width: 100%;" src="cles.svg">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluide d-none d-lg-block" style="background-color: #B01C1D;">
+            <div style="justify-items: center; text-align: center;">
+                <div style="font-size: 5px"><br><br></div>
+                <div class="col-10 offset-1"><h3 style="color:white;">Disponible 24h/24 - 7J /7</h3></div>
+                <div style="font-size: 15px"><br></div>
+                <a type="button" class="btn btn-outline-danger" style=" text-decoration: none; background-color: #ff4136; border-color: #ff4136" href="tel:+33189163042"><span style="font-family: Playfair display; font-size: 30px; color: white;">01 89 16 30 42</span></a> 
+                <div style="font-size: 5px"><br><br></div>
+            </div>
+        </div> 
+
+        <div class="container-fluide d-none d-lg-block" style="background-color: white;">
+            <div><h6><br></h6></div>
+        </div>
+
+        <div class="container-fluide d-none d-lg-block" style="background-color: #08253F;">
+            <p style="font-size:1px"><br></p>
+            <div class="row">
+                <div class="col-2" style="text-align: right; "><a style="color: white; text-decoration: none;" href="pageMentionsLegales.html">Mentions légales</a></div>
+                <div class="col-2"><a style="color: white; text-decoration: none; " href="tarifs.html">Nos tarifs</a></div>
+                <div class="col-4 offset-3" style="color:white; text-align: right;">Copyright © 2022 LOYAUX SERVICES</div>
+            </div>
+            <p style="font-size:10px"><br></p>
+        </div>
+
+
+
+
+	    <div class="container-fluide fixed-top sticky-top d-block d-lg-none" style="background-color: white;">
+			<ul class="nav row" style="margin-top: 10px;">
+			  <li class="col-4 nav-item" style="margin-left: 20px;">
+			    <a class="nav-link active" aria-current="page" href="index.html">
+			    	<h1 class="h1" style="font-weight: normal;">Loyaux</h1>
+	                <h6 class="h6" style="line-height: 0; margin-left: 30px; font-weight: normal; color: #B68349">services</h6>
+	            </a>
+			  </li>
+			  <li class="col-7 nav-item h4">
+			    <a type="button" class="btn btn-danger btn-lg h4" style="margin: 10px; background-color: #08253F; border-color: #08253F; text-decoration: none;" href="tel:+33189163042"><span style="font-family: Playfair display; color: white;">01 89 16 30 42</span></a> 
+			  </li>
+			</ul>
+		</div>
+
+		<div class="container-fluide d-block d-lg-none" style="font-family: Playfair display; background-image: url(site.png);background-repeat: no-repeat; background-size: cover; line-height: 2px;">
+			<p><br><br><br><br><br><br><br><br><br></p>
+			<h2 class="col-7 h2" style="margin-left: 20px"><strong>Dépannage serrurier sur Paris</strong></h2>
+			<h4 class="col-7 text-bold" style="margin-left: 15px;">Disponible 7j/7 et 24h/24.</h4>
+			<a type="button" class="btn btn-danger btn-lg offset-3" style=" margin: 10px; text-decoration: none; background-color: #08253F; border-color: #08253F" href="tel:+33189163042"><span style="font-family: Playfair display; font-size: 25px; color: white;">01 89 16 30 42</span></a>
+		</div>
+
+		<div class="container-fluide d-block d-lg-none" style="background-color: #08253F">
+			<p style="font-size: 5px;"><br></p>
+			<div class="row offset-1">
+				<img style="width: 15%; height: 15%;" src="contact.png">
+				<h3 class="col-9" style="color:white">Qui sommes nous?</h3>
+			</div>
+			<div style=" color: white; justify-content: center; text-align: center; margin: 10px;">
+	                <h6 style="font-weight: bold;">Loyaux Services est une entreprise pensée pour vous!</h6>
+	                <p>Forts d'une expérience d'une vingtaine d'années, nous avons décidé de réunir les meilleurs serruriers sur Paris.  Spécialistes de l’urgence serrurerie, nous sommes disponibles pour une ouverture de porte,l’installation et la réparation de votre serrure....</p>
+	                <br>
+	            </div>
+	        </div>
+		</div>
+
+		<div class="container-fluide d-block d-lg-none">
+			<p style="font-size: 5px;"><br></p>
+			<div class="row offset-1">
+				<img style="width: 17%; height:17%;" src="outil.png">
+				<h1 class="col-9">Nos compétences</h1>
+			</div>
+			<div>
+				<div style="margin: 45px; background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+	                <a  href="nosServices.html"><img style="width:100%" src="service1.png"></a>
+	                <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Ouverture de porte</h3>
+	            </div>
+	            <div style="margin: 45px; background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+	                <a  href="nosServices.html"><img style="width:100%" src="service2.png"></a>
+	                <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Changement de serrure</h3>
+	            </div>
+	            <div style="margin: 45px; background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+	                <a  href="nosServices.html"><img style="width:100%" src="service3.png"></a>
+	                <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Coffre - fort</h3>
+	            </div>
+	            <div style="margin: 45px; background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+	                <a  href="nosServices.html"><img style="width:100%" src="service4.png"></a>
+	                <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Porte blindée & blindage</h3>
+	            </div>
+	            <div style="margin: 45px; background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+	                <a  href="nosServices.html"><img style="width:100%" src="service5.png"></a>
+	                <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Volets roulants</h3>
+	            </div>
+	            <div style="margin: 45px; background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+	                <a  href="nosServices.html"><img style="width:100%" src="service6.png"></a>
+	                <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Réglage de porte</h3>
+	            </div>
+	            <div style="margin: 45px; background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+	                <a  href="nosServices.html"><img style="width:100%" src="service7.png"></a>
+	                <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Ouverture de boite aux lettres</h3>
+	            </div>
+	            <div style="margin: 45px; background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+	                <a  href="nosServices.html"><img style="width:100%" src="service8.png"></a>
+	                <h3 style="color: white; height: 50px; text-align:center; margin-top: 15px;">Double de clé</h3>
+	            </div>
+	            <div style="margin: 45px; background-color:#08253F;box-shadow: 10px 5px 5px #08253F;">
+	                <a  href="nosServices.html"><img style="width:100%" src="service9.png"></a>
+	                <h3 style="color: white; height: 60px; text-align:center; margin-top: 15px;">Installation ferme- porte <br>& verrous aux fenêtres</h3>
+	            </div>
+			</div>
+		</div>
+
+		<div class="container-fluide d-block d-lg-none" style="background-color: #08253F;">
+			<div style="justify-items: center; text-align: center; margin: 20px">
+				<h1><br></h1>
+				<div class="col-10 offset-1"><h1 style="color:white;">Disponible 24h/24 - 7J/7</h1></div>
+				<h1><br></h1>
+				<a type="button" class="btn btn-danger btn-lg" style="margin: 15px; text-decoration: none; background-color: #08253F; border-color: #08253F" href="tel:+33189163042"><span style="font-family: Playfair display; font-size: 30px; color: white; margin:50px 0px 50px 0px;">01 89 16 30 42</span></a>  
+				<h1><br></h1>
+				<div class="col-10 offset-1"><h2 style="color:white;">CONTACTEZ NOUS POUR UNE INTERVENTION EXPRESS SUR PARIS</h2></div>
+				<h1><br></h1>
+			</div>
+		</div>
+
+		<div class="d-block d-lg-none" style="width: 100px; background-color: white;">
+			<h1><br></h1>
+		</div>
+
+		<div class="container-fluide d-block d-lg-none" style="background-color: #08253F;">
+			<p style="font-size: 5px;"><br></p>
+			<div class="row offset-1">
+				<img style="width: 15%; height: 15%;" src="confiance.png">
+				<h3 class="col-10" style="color:white">Ils nous font confiance</h3>
+				<p style="font-size: 2px"><br></p>
+			</div>
+			<div class="row" style="margin-left: 60px; margin-right: -60px;">
+				<div class="col-3">
+					<img style="width:100%" src="assurance1.png">
+				</div>
+				<div class="col-3">
+					<img style="width:100%" src="assurance2.png">
+				</div>
+				<div class="col-3">
+					<img style="width:100%" src="assurance3.png">
+				</div>
+			</div>
+			<div class="row" style="margin-left: 60px; margin-right: -60px;">
+				<div class="col-3">
+					<img style="width:100%" src="assurance4.png">
+				</div>
+				<div class="col-3">
+					<img style="width:100%" src="assurance5.png">
+				</div>
+				<div class="col-3">
+					<img style="width:100%" src="assurance6.png">
+				</div>
+			</div>
+			<div class="container-fluide" style="background-color: #08253F;">
+				<p style="font-size: 5px;"><br></p>
+				<div class="row offset-2">
+					<img style="width: 15%; height: 15%;" src="partenaires.png">
+					<h3 class="col-8" style="color:white">Nos partenaires</h3>
+					<p style="font-size: 2px"><br></p>
+				</div>
+				<div class="col-10 offset-1">
+					<img style="width: 100%;" src="marque.png">
+				</div>
+			</div>
+			<div class="row">
+				<div><h1><br></h1></div>
+				<div class="col-4 offset-1"><img style="width: 100%; margin-top: 10px;" src="bouclier.png"></div>
+				<div class="col-6">
+					<p style="color:white; text-align: justify;">Tous nos tarifs sont agrées et validés par les compagnies d'assurances pour vous garantir une prise en charge et un remboursement rapide et immédiat en cas de cambriolage, d'effraction et perte de clés.</p>
+				</div>
+				<div><h1><br></h1></div>
+			</div>
+		</div>
+
+		<div class="d-block d-lg-none" style="width: 100px; background-color: white;">
+			<h1><br></h1>
+		</div>
+
+		<div class="container-fluide d-block d-lg-none" style="margin:30px">
+			<div>
+				<h1>Loyaux Services à Paris, à vos côtés!</h1>
+				<p><br></p>
+				<h3>Nous mettons à votre disposition notre savoir faire et vous garantissons le meilleur rapport qualité-prix d’une prestation clés en main avec service après vente. Nous mettons l’accent sur la qualité du service, c’est à dire l’efficacité, la rapidité d’exécution, la réactivité aux demandes et surtout une transparence tarifaire. Avec Loyaux Services, vous ne risquez pas de mauvaise surprise. Nos tarifs sont clairement annoncés avant chaque intervention.</h3>
+				<p><br></p>
+			</div>
+			<div class="row" style="color: #B01C1D">
+				<div class="col-4 offset-0">
+					<img style="width:100%" src="montre.png">
+					<p>Intervention Express</p>
+				</div>
+				<div class="col-4 offset-0">
+					<img style="width:100%" src="diamant.png">
+					<p>Matériel à la pointe</p>
+				</div>
+				<div class="col-4 offset-0">
+					<img style="width:100%" src="victoire.png">
+					<p>La qualité, avant tout</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-10 offset-1 d-block d-lg-none">
+			<img style="width:100%; box-shadow: 15px 15px 5px #08253F;" src="serrurier2.png">
+			<h1><br><br></h1>
+		</div>
+
+		<div class="container-fluide d-block d-lg-none" style="background-color: #08253F;">
+				<p style="font-size: 5px;"><br></p>
+				<div class="row offset-1">
+					<img style="width: 15%; height: 15%;" src="verrou.png">
+					<h3 class="col-10" style="color:white">Nous intervenons sur tous types de serrures</h3>
+					<p style="font-size: 2px"><br></p>
+				</div>
+				<div class="col-12">
+					<img style="width: 100%;" src="cles.png">
+				</div>
+			</div>
+		</div>
+
+        <div class="container-fluide d-block d-lg-none" style="background-color: #B01C1D;">
+            <div style="justify-items: center; text-align: center;">
+                <div style="font-size: 5px"><br><br></div>
+                <div class="col-10 offset-1"><h3 style="color:white;">Disponible 24h/24 - 7J /7</h3></div>
+                <div style="font-size: 15px"><br></div>
+                <a type="button" class="btn btn-outline-danger" style=" text-decoration: none; background-color: #08253F; border-color: #08253F" href="tel:+33189163042"><span style="font-family: Playfair display; font-size: 23px; color: white;">01 89 16 30 42</span></a> 
+                <div style="font-size: 5px"><br><br></div>
+            </div>
+        </div> 
+
+        <div class="container-fluide d-block d-lg-none" style="background-color: white;">
+            <p style="font-size:1px"><br></p>
+        </div>
+
+        <div class="container-fluide d-block d-lg-none" style="background-color: #08253F;">
+            <p style="font-size:1px"><br></p>
+            <div class="row" style="font-size:10px; margin-left: 1px;">
+                <div class="col-4" ><a style="color: white; text-decoration: none ;" href="pageMentionsLegales.html">Mentions légales</a></div>
+                <div class="col-2"><a style="color: white; text-decoration: none; " href="tarifs.html">Nos tarifs</a></div>
+                <div class="col-6" style="color:white;">Copyright © 2022 LOYAUX SERVICES</div>
+            </div>
+            <p style="font-size:10px"><br></p>
+        </div>
+	</body>
+</html>					
