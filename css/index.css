@@ -32,7 +32,7 @@ h2{
 }
 
 p{
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .p1{
@@ -47,7 +47,12 @@ p{
   font-size: 20px;
 }
 
-header{
+a{
+  text-decoration: none;
+  color: initial;
+}
+
+header, .menu , .topnav{
   background-color: white;
   position: fixed;
   display: flex;
@@ -84,6 +89,10 @@ ul {
   justify-content: flex-end;
 }
 
+header ul{
+  align-items: center;
+}
+
 li{
   margin-right: 20px;
 }
@@ -102,6 +111,11 @@ li{
   border-color: #ff4136;
   padding: 10px;
   height: 20px;
+  color: white;
+}
+
+.page{
+  
 }
 
 .presentation{
@@ -124,7 +138,6 @@ li{
   position: relative;
   z-index: 5;
   top: -60vh;
-  height: 100%;
   width: 45%;
   padding: 0% 5%;
 }
@@ -156,20 +169,61 @@ h2 i{
   flex-direction: column;
   align-items: center;
   color: #08253F;
+  padding: 2%;
+}
+
+.services{
+  position: relative;
+  top: 10vh;
+}
+
+.list{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+.sous_list{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.sous_list li{
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: 22px;
 }
 
 .bloc_competence {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 5% 2%;
+}
+
+.sans_marge{
+  margin: auto;
 }
 
 .sous_competence {
   width: 200px;
   padding: 2%;
   background-color: lightgrey;
+  margin-bottom: 2%;
+}
+
+.tarifs{
+  line-height: 30px;
+  align-items: baseline;
+  margin-left: 25px;
+  position: relative;
 }
 
 .banniere{
@@ -250,4 +304,16 @@ footer {
 footer nav ul{
   justify-content: initial;
   padding: 0% 2%;
+}
+
+footer li{
+  color: white;
+}
+
+footer p{
+  font-size: 15px;
+}
+
+.topnav{
+  display: none;
 }

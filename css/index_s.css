@@ -1,0 +1,112 @@
+body{
+	
+}
+
+.presentation_text{
+	width: 100%;
+}
+
+.text{
+	width: 90%;
+}
+
+.competences{
+	align-items: center;
+}
+
+.bloc_competence{
+	justify-content: center;
+}
+
+.sous_competence{
+	margin: 2%;
+}
+
+.banniere{
+	background-color: #08253F;
+	background-image: none;
+}
+
+.banniere_img{
+	width: 0%;
+}
+
+.banniere_text{
+	width: 90%;
+	padding: 5%;
+}
+
+.presentation_2{
+	flex-direction: column;
+}
+
+.presentation_2_text, .presentation_2_img{
+	width: 90%;
+}
+
+.sous_list{
+	width: 95%;
+}
+
+
+footer nav ul{
+	display: flex;
+	flex-direction: column;
+}
+
+.menu{
+	display: none;
+}
+
+.topnav{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo p{
+	margin: 0px;
+	margin-top: 15px;
+}
+
+.logo{
+	width: 45%;
+}
+
+.button p{
+	font-size: 15px;
+}
+
+.button{
+	width: 40%;
+}
+
+#myLinks{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 10vh;
+	z-index: 1000;
+	background-color: black;
+	color: white;
+	border: 1px solid white;
+	line-height: 30px;
+	display: none;
+	width: 0%;
+}
+
+#myLinks a{
+	color: white;
+}
+
+.bar{
+	width: 10%;
+	padding: 0% 2%;
+	margin-right: 20px;
+}
+
+.bar:active #myLinks{
+	display: flex;
+	width: 100vw;
+}
