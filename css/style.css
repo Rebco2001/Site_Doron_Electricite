@@ -202,6 +202,7 @@ main {
 	justify-content: space-around;
 	flex-wrap: wrap;
 	font-size: 20px;
+	width: 100%;
 }
 
 .items_e {
@@ -264,7 +265,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 20px;
-    color: red;
+    text-shadow: 0px 0px 10px red;
 }
 
 .i_p i {
@@ -279,6 +280,48 @@ main {
 
 .ul_li ul{
 	width: 40%;
+}
+
+.cart__order__form__question {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.cart__order__form__question input{
+    border-radius: 13px;
+    border: 0;
+    height: 26px;
+    margin-top: 4px;
+}
+
+.cart__order__form__question textarea {
+    border-radius: 13px;
+    border: 0;
+    margin-top: 4px;
+    height: 70px;
+}
+
+.cart__order__form__question p {
+    margin: 0;
+    color: #fbbcbc;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+form.cart__order__form {
+    width: 60%;
+}
+
+.items_e button{
+	font-size: large;
+    color: white;
+    background-color: red;
+    padding: 5%;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 

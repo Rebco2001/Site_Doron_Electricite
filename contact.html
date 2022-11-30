@@ -38,32 +38,45 @@
     </header>
 
     <main class="limitedWidthBlockContainer">
-      <div class="limitedWidthBlock white">
-        <div class="titles">
-          <h1 id="who"><i class="fa-solid fa-hand-holding-dollar"></i>   RECAPITULATIF DES PRIX</h1>
+      <div class="limitedWidthBlock blue">
+        <h1>NOUS CONTACTER</h1>
+        <div class="items">
+          <form method="get" class="cart__order__form">
+            <div class="cart__order__form__question">
+              <label for="firstName">Prénom: </label>
+              <input type="text" name="firstName" id="firstName" required>
+              <p id="firstNameErrorMsg"></p>
+            </div>
+            <div class="cart__order__form__question">
+              <label for="lastName">Nom: </label>
+              <input type="text" name="lastName" id="lastName" required>
+              <p id="lastNameErrorMsg"></p>
+            </div>
+            <div class="cart__order__form__question">
+              <label for="address">Adresse: </label>
+              <input type="text" name="address" id="address" required>
+              <p id="addressErrorMsg"></p>
+            </div>
+            <div class="cart__order__form__question">
+              <label for="city">Ville: </label>
+              <input type="text" name="city" id="city" required>
+              <p id="cityErrorMsg"></p>
+            </div>
+            <div class="cart__order__form__question">
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" required>
+              <p id="emailErrorMsg"></p>
+            </div>
+            <div class="cart__order__form__question">
+              <label for="object">Message: </label>
+              <textarea type="text" name="object" id="object" required></textarea>
+            </div>
+            <div class="cart__order__form__submit">
+              <input type="submit" value="ENVOYER" id="order">
+            </div>
+            
+          </form>
         </div>
-        <section class="items">
-          <p>Les lignes ci-dessous synthétisent tous les prix d'interventions minimum. Le tarif réel appliqué peut être supérieur dans les cas suivants :</p>
-          <div class="ul_li">
-            <ul>
-              <li>Le client souhaite un <strong>matériel de meilleure facture que le matériel standard</strong></li>
-              <li>Le client a besoin d'un <strong>matériel non standard</strong></li>
-              <li>L'intervention est plus lourde que prévu</li>
-            </ul>
-
-            <ul>
-              <li>Le client demande une <strong>prestation supplémentaire</strong></li>
-              <li>L'intervention a lieu <strong>le soir, le week-end ou un jour férié</strong></li>
-              <li>Des <strong>outillages spécifiques imprévus</strong> doivent être utilisés</li>
-            </ul>
-          </div>
-        </section>
-        <section class="items_e">
-          <h2>NOS TARIFS</h2>
-          <p>Déplacement 39€ TTC<br>Devis gratuit si acceptation 39€ TTC<br>Heures de main d’œuvre 90€ TTC<br>Ouverture de porte claquée à partir de 80€ TTC<br>Ouverture de porte<br>fermée à clé à partir de 150€ TTC<br>Changement de serrure sur devis à partir de 100€ TTC<br>Fermeture provisoire à partir de 375€ TTC<br>Blindage de porte sur devis<br>Remplacement de bloc porte sur devis
-          </p>
-          <a href="contact.html"><button>DEMANDE DE DEVIS</button></a>
-        </section>
       </div>
 
       <div class="limitedWidthBlock">
